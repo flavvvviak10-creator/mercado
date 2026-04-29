@@ -7,7 +7,7 @@
 =====================================*/
 
 class db {
-public static $db_server = "localhost";
+public static $db_server = "switchback.proxy.rlwy.net";
 public static $db_db = "railway";
 public static $db_user = "root";
 public static $db_pass = "RhTNMVFzagwXunmRcCgbOAZdlymxLNCY";
