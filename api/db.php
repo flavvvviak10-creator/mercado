@@ -1,11 +1,11 @@
 <?php 
 
 class db {
-    public static $db_server = "";
-    public static $db_db = "";
-    public static $db_user = "";
-    public static $db_pass = "";
-    public static $db_port = "";
+    public static $db_server = "mysql.railway.interna";
+    public static $db_db = "railway";
+    public static $db_user = "root";
+    public static $db_pass = "eVEFVwHlbgXyYJdYjKYjpveWscIsilIC";
+    public static $db_port = "29780";
 
     public static function init() {
         self::$db_server = getenv("MYSQLHOST") ?: "mysql.railway.internal";
