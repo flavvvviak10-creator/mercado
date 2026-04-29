@@ -8,7 +8,7 @@ class db {
     public static $db_port = "";
 
     public static function init() {
-        self::$db_server = getenv("MYSQLHOST") ?: "localhost";
+        self::$db_server = getenv("MYSQLHOST") ?: "mysql.railway.internal";
         self::$db_db = getenv("MYSQLDATABASE") ?: "railway";
         self::$db_user = getenv("MYSQLUSER") ?: "root";
         self::$db_pass = getenv("MYSQLPASSWORD") ?: "eVEFVwHlbgXyYJdYjKYjpveWscIsilIC";
